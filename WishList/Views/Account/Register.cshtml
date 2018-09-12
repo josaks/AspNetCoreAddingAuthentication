@@ -1,0 +1,24 @@
+﻿@model WishList.Models.AccountViewModels.RegisterViewModel
+
+<h3></h3>
+<form asp-action="Register">
+	<div class="text-danger" asp-validation-summary="All"></div>
+	<div>
+		<label asp-for="Email"></label>
+		<br />
+		<input />
+	</div>
+	<div>
+		<label asp-for="Password"></label>
+		<br />
+		<input />
+	</div>
+	<div>
+		<label asp-for="ConfirmPassword"></label>
+		<br />
+		<input />
+	</div>
+	<div>
+		<button type="submit"></button>
+	</div>
+</form>
